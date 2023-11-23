@@ -315,6 +315,8 @@ class CharacterSheetPF2e<TActor extends CharacterPF2e> extends CreatureSheetPF2e
         const enrichPromises = {
             appearance: TextEditor.enrichHTML(biography.appearance, { rollData, async: true }),
             backstory: TextEditor.enrichHTML(biography.backstory, { rollData, async: true }),
+            anathemas: TextEditor.enrichHTML(biography.anathemas, { rollData, async: true }),
+            edicts: TextEditor.enrichHTML(biography.edicts, { rollData, async: true }),
             campaignNotes: TextEditor.enrichHTML(biography.campaignNotes, { rollData, async: true }),
             allies: TextEditor.enrichHTML(biography.allies, { rollData, async: true }),
             enemies: TextEditor.enrichHTML(biography.enemies, { rollData, async: true }),
