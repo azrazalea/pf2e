@@ -156,8 +156,8 @@ interface CharacterBiography {
     beliefs: string;
     /** Character edicts (user-provided field). value is HTML */
     edicts: string;
-    /** Character anathemas (user-provided field). value is HTML */
-    anathemas: string;
+    /** Character anathema (user-provided field). value is HTML */
+    anathema: string;
     /** Character likes (user-provided field). */
     likes: string;
     /** Character dislikes (user-provided field). */
