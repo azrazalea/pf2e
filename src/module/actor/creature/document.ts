@@ -52,7 +52,7 @@ abstract class CreaturePF2e<
     declare perception: Statistic;
 
     override get allowedItemTypes(): (ItemType | "physical")[] {
-        return [...super.allowedItemTypes, "affliction"];
+        return [...super.allowedItemTypes, "affliction", "kit"];
     }
 
     /** Types of creatures (as provided by bestiaries 1-3) of which this creature is a member */
